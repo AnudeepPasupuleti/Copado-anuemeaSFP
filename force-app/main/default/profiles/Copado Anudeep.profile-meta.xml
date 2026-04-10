@@ -6,7 +6,7 @@
     <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>All</description>
-        <endAddress>255.255.255.255</endAddress>
+        <endAddress>255.255.255.2</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
     <userLicense>Salesforce</userLicense>
