@@ -38,7 +38,7 @@
         <inputAssignments>
             <field>LastName</field>
             <value>
-                <stringValue>Rajat</stringValue>
+                <stringValue>Rajat Pai</stringValue>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
