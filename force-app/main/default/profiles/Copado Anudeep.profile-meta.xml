@@ -4,6 +4,11 @@
     <custom>true</custom>
     <description>Description for userstory1</description>
     <loginHours n1:nil="true" />
+    <loginIpRanges>
+        <description>All</description>
+        <endAddress>255.255.255.255</endAddress>
+        <startAddress>0.0.0.0</startAddress>
+    </loginIpRanges>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
