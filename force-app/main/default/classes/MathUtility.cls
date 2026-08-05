@@ -7,6 +7,8 @@ public with sharing class MathUtility {
         return num * num;
     }
 
+//adding a commit
+
     public static Integer getCube(Integer num) {
         if (num == null) {
             return 0;
