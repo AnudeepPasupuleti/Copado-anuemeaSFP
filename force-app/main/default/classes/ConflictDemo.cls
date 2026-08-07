@@ -1,5 +1,5 @@
-public class AccountService {
-    public static String getStatus() {
-        return 'Changed by Branch B';
+public class ConflictDemo {
+    public static String getMessage() {
+        return 'Created from Feature A';
     }
 }
