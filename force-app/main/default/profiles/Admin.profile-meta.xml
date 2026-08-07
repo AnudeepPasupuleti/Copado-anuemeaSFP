@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
-    <fullName>Admin</fullName>
     <applicationVisibilities>
         <application>Chatter_Answers_Moderator</application>
         <default>false</default>
@@ -221,6 +220,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <description n1:nil="true" />
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
@@ -5209,6 +5209,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
