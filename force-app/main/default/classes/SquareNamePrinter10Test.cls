@@ -6,6 +6,6 @@ private class SquareNamePrinter10Test {
         SquareNamePrinter10.printSquareName();
         Test.stopTest();
 
-        System.assertEquals(true, true, 'Method executed successfully.');
+        System.assertEquals(true, true, 'Method executed successfully sandeep saneep.');
     }
 }
