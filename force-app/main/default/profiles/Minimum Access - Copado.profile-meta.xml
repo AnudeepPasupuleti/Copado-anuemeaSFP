@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Minimum Access - Copado</fullName>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>Copado_Monitoring_Center</application>
         <default>false</default>
@@ -12979,46 +12979,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>CanExecuteLogBatchPurger</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>CanModifyLoggerSettings</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>CanViewLogEntryMetadata</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Access_AQF</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Allow_Manual_Changes_in_Job_Engine_Records</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Copado_Functions_Admin</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Create_User_Story_Bundle</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_Filter_Data_Template_Task</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Data_Deploy_DevOps_User</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Remove_metadata_from_Promotion</name>
-    </customPermissions>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
         <name>LogEntryDataMaskRule__mdt</name>
@@ -13071,10 +13031,51 @@
         <enabled>true</enabled>
         <name>copado__Quality_Gate_Test_From__mdt</name>
     </customMetadataTypeAccesses>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>CanExecuteLogBatchPurger</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>CanModifyLoggerSettings</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>CanViewLogEntryMetadata</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Access_AQF</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Allow_Manual_Changes_in_Job_Engine_Records</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Copado_Functions_Admin</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Create_User_Story_Bundle</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Edit_Filter_Data_Template_Task</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Enable_Data_Deploy_DevOps_User</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Remove_metadata_from_Promotion</name>
+    </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>LoggerSettings__c</name>
     </customSettingAccesses>
+    <description n1:nil="true" />
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
@@ -26604,6 +26605,10 @@
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Competitor__c-Competitor Layout</layout>
+        <recordType>Competitor__c.Competitor</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -26894,12 +26899,12 @@
         <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
-        <recordType>copado__Artifact__c.copado__User_Story_Bundle</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>copado__Artifact__c-copado__Package Layout</layout>
         <recordType>copado__Artifact__c.copado__Package_Artifact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
+        <recordType>copado__Artifact__c.copado__User_Story_Bundle</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__Automation_Event__c-copado__MC Automation Event Layout</layout>
@@ -27253,12 +27258,12 @@
         <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
-        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>copado__Selenium_Test_Run__c-copado__Web App Selenium Test Run Layout</layout>
         <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
+        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>copado__Selenium_Test_Suite__c-copado__Selenium Test Suite Layout</layout>
@@ -27459,6 +27464,7 @@
     <layoutAssignments>
         <layout>copadovsm__Value_Stream_Map__c-copadovsm__Value Stream Map Layout</layout>
     </layoutAssignments>
+    <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>All</description>
         <endAddress>255.255.255.255</endAddress>
@@ -30424,6 +30430,11 @@
         <default>true</default>
         <recordType>Account.Business</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Competitor__c.Competitor</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
