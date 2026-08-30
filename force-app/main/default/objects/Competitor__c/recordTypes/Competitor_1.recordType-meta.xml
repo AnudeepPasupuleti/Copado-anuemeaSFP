@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Competitor</fullName>
+    <fullName>Competitor_1</fullName>
     <active>true</active>
-    <label>Competitor</label>
+    <label>Competitor_1</label>
     <picklistValues>
         <picklist>ActiveBusinessUnits__c</picklist>
         <values>

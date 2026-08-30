@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActiveBusinessUnits__c</fullName>
+    <label>Active Business Units</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canada APM</fullName>
+                <default>false</default>
+                <label>Canada APM</label>
+            </value>
+            <value>
+                <fullName>LATAM APM</fullName>
+                <default>false</default>
+                <label>LATAM APM</label>
+            </value>
+            <value>
+                <fullName>LATAM BDB</fullName>
+                <default>false</default>
+                <label>LATAM BDB</label>
+            </value>
+            <value>
+                <fullName>LATAM DS</fullName>
+                <default>false</default>
+                <label>LATAM DS</label>
+            </value>
+            <value>
+                <fullName>LATAM IDS</fullName>
+                <default>false</default>
+                <label>LATAM IDS</label>
+            </value>
+            <value>
+                <fullName>LATAM MDS</fullName>
+                <default>false</default>
+                <label>LATAM MDS</label>
+            </value>
+            <value>
+                <fullName>LATAM MMS</fullName>
+                <default>false</default>
+                <label>LATAM MMS</label>
+            </value>
+            <value>
+                <fullName>LATAM PI</fullName>
+                <default>false</default>
+                <label>LATAM PI</label>
+            </value>
+            <value>
+                <fullName>LATAM PS</fullName>
+                <default>false</default>
+                <label>LATAM PS</label>
+            </value>
+            <value>
+                <fullName>LATAM SM</fullName>
+                <default>false</default>
+                <label>LATAM SM</label>
+            </value>
+            <value>
+                <fullName>LATAM Surgery</fullName>
+                <default>false</default>
+                <label>LATAM Surgery</label>
+            </value>
+            <value>
+                <fullName>LATAM UCC</fullName>
+                <default>false</default>
+                <label>LATAM UCC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

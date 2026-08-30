@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Business_Unit__c</fullName>
+    <label>Primary Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BDB</fullName>
+                <default>false</default>
+                <label>BDB</label>
+            </value>
+            <value>
+                <fullName>BDI</fullName>
+                <default>false</default>
+                <label>BDI</label>
+            </value>
+            <value>
+                <fullName>Canada BDB</fullName>
+                <default>false</default>
+                <label>Canada BDB</label>
+            </value>
+            <value>
+                <fullName>Canada BDI</fullName>
+                <default>false</default>
+                <label>Canada BDI</label>
+            </value>
+            <value>
+                <fullName>Canada DHC</fullName>
+                <default>false</default>
+                <label>Canada DHC</label>
+            </value>
+            <value>
+                <fullName>Canada DS</fullName>
+                <default>false</default>
+                <label>Canada DS</label>
+            </value>
+            <value>
+                <fullName>Canada MDS</fullName>
+                <default>false</default>
+                <label>Canada MDS</label>
+            </value>
+            <value>
+                <fullName>Canada MMS</fullName>
+                <default>false</default>
+                <label>Canada MMS</label>
+            </value>
+            <value>
+                <fullName>Canada PAS</fullName>
+                <default>false</default>
+                <label>Canada PAS</label>
+            </value>
+            <value>
+                <fullName>DS</fullName>
+                <default>false</default>
+                <label>DS</label>
+            </value>
+            <value>
+                <fullName>IDS</fullName>
+                <default>false</default>
+                <label>IDS</label>
+            </value>
+            <value>
+                <fullName>MDS</fullName>
+                <default>false</default>
+                <label>MDS</label>
+            </value>
+            <value>
+                <fullName>MMS</fullName>
+                <default>false</default>
+                <label>MMS</label>
+            </value>
+            <value>
+                <fullName>PS</fullName>
+                <default>false</default>
+                <label>PS</label>
+            </value>
+            <value>
+                <fullName>SCG</fullName>
+                <default>false</default>
+                <label>SCG</label>
+            </value>
+            <value>
+                <fullName>SM</fullName>
+                <default>false</default>
+                <label>SM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

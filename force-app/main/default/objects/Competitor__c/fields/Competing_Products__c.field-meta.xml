@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competing_Products__c</fullName>
+    <label>Competing Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABG/Critical Care (CA PAS)</fullName>
+                <default>false</default>
+                <label>ABG/Critical Care (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>Accessories (CA PAS)</fullName>
+                <default>false</default>
+                <label>Accessories (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>Accuri (US BDB)</fullName>
+                <default>false</default>
+                <label>Accuri (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Anesthesia Systems (CA MSS)</fullName>
+                <default>false</default>
+                <label>Anesthesia Systems (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Bioprocessing (CA BDB)</fullName>
+                <default>false</default>
+                <label>Bioprocessing (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>Blood Culture (CA DS)</fullName>
+                <default>false</default>
+                <label>Blood Culture (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Blood Culture (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Blood Culture (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>C difficile (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>C difficile (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>CHROMagar MRSA (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>CHROMagar MRSA (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>CHROMagar Other (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>CHROMagar Other (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>CSTD (US MSS)</fullName>
+                <default>false</default>
+                <label>CSTD (US MSS)</label>
+            </value>
+            <value>
+                <fullName>CT/GC (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>CT/GC (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>CTT ASR Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>CTT ASR Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>CTT RUO Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>CTT RUO Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Clinical Analyzer Instrument (US BDB)</fullName>
+                <default>false</default>
+                <label>Clinical Analyzer Instrument (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Clinical Options (US BDB)</fullName>
+                <default>false</default>
+                <label>Clinical Options (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Collection and Transport (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Collection and Transport (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Conventional Hypodermics (US MSS)</fullName>
+                <default>false</default>
+                <label>Conventional Hypodermics (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Core Microbiology (CA DS)</fullName>
+                <default>false</default>
+                <label>Core Microbiology (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Cytology (CA DS)</fullName>
+                <default>false</default>
+                <label>Cytology (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Cytology (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Cytology (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Diphenhydramine (US RX)</fullName>
+                <default>false</default>
+                <label>Diphenhydramine (US RX)</label>
+            </value>
+            <value>
+                <fullName>Enteral Syringes (US MSS)</fullName>
+                <default>false</default>
+                <label>Enteral Syringes (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Environmental Generation Sys (US DS CLI)</fullName>
+                <default>false</default>
+                <label>Environmental Generation Sys (US DS CLI)</label>
+            </value>
+            <value>
+                <fullName>FACSAria (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSAria (US BDB)</label>
+            </value>
+            <value>
+                <fullName>FACSAria Fusion (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSAria Fusion (US BDB)</label>
+            </value>
+            <value>
+                <fullName>FACSCalibur (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSCalibur (US BDB)</label>
+            </value>
+            <value>
+                <fullName>FACSCanto (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSCanto (US BDB)</label>
+            </value>
+            <value>
+                <fullName>FACSJazz (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSJazz (US BDB)</label>
+            </value>
+            <value>
+                <fullName>FACSPresto (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSPresto (US BDB)</label>
+            </value>
+            <value>
+                <fullName>FACSVerse (US BDB)</fullName>
+                <default>false</default>
+                <label>FACSVerse (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Flush Products (CA MSS)</fullName>
+                <default>false</default>
+                <label>Flush Products (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Flush Syringes (US MSS)</fullName>
+                <default>false</default>
+                <label>Flush Syringes (US MSS)</label>
+            </value>
+            <value>
+                <fullName>HPV (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>HPV (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>HSV (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>HSV (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Hypodermic (CA MSS)</fullName>
+                <default>false</default>
+                <label>Hypodermic (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>I.V. Access System (US MSS)</fullName>
+                <default>false</default>
+                <label>I.V. Access System (US MSS)</label>
+            </value>
+            <value>
+                <fullName>ID / AST (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>ID / AST (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>ID AST (CA DS)</fullName>
+                <default>false</default>
+                <label>ID AST (CA DS)</label>
+            </value>
+            <value>
+                <fullName>IS Blood Bank Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>IS Blood Bank Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>IS Cancer Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>IS Cancer Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>IS Custom Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>IS Custom Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>IS HIV Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>IS HIV Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>IS Other Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>IS Other Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>IV Catheter (CA MSS)</fullName>
+                <default>false</default>
+                <label>IV Catheter (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Imaging (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Imaging (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Industrial Microbiology (CA DS)</fullName>
+                <default>false</default>
+                <label>Industrial Microbiology (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Infection Prevention Soft (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Infection Prevention Soft (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Influx (US BDB)</fullName>
+                <default>false</default>
+                <label>Influx (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Instruments (CA BDB)</fullName>
+                <default>false</default>
+                <label>Instruments (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>Insulin Delivery (CA MSS)</fullName>
+                <default>false</default>
+                <label>Insulin Delivery (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>LSRFortessa (US BDB)</fullName>
+                <default>false</default>
+                <label>LSRFortessa (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Lab Automation (CA DS)</fullName>
+                <default>false</default>
+                <label>Lab Automation (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Lancets (CA PAS)</fullName>
+                <default>false</default>
+                <label>Lancets (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>Legacy and Resold Instruments (CA BDB)</fullName>
+                <default>false</default>
+                <label>Legacy and Resold Instruments (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>MRSA (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>MRSA (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Metoclopramide (US RX)</fullName>
+                <default>false</default>
+                <label>Metoclopramide (US RX)</label>
+            </value>
+            <value>
+                <fullName>Molecular (CA DS)</fullName>
+                <default>false</default>
+                <label>Molecular (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Morphine (US RX)</fullName>
+                <default>false</default>
+                <label>Morphine (US RX)</label>
+            </value>
+            <value>
+                <fullName>Needleless Connectors (CA MSS)</fullName>
+                <default>false</default>
+                <label>Needleless Connectors (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Needles (CA PAS)</fullName>
+                <default>false</default>
+                <label>Needles (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>OSR (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>OSR (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Ondansetron (US RX)</fullName>
+                <default>false</default>
+                <label>Ondansetron (US RX)</label>
+            </value>
+            <value>
+                <fullName>Options &amp; Upgrades (CA BDB)</fullName>
+                <default>false</default>
+                <label>Options &amp; Upgrades (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>PMG Core reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>PMG Core reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>PMG Custom Reagents (US BDB)</fullName>
+                <default>false</default>
+                <label>PMG Custom Reagents (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Devices (CA MSS)</fullName>
+                <default>false</default>
+                <label>Pharmacy Devices (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Pharmacy Solutions (CA MSS)</fullName>
+                <default>false</default>
+                <label>Pharmacy Solutions (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Plate Streaker (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Plate Streaker (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Prepared Plated Media (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Prepared Plated Media (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Prepared Tubed Media (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Prepared Tubed Media (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Rapid Manual Testing (CA DS)</fullName>
+                <default>false</default>
+                <label>Rapid Manual Testing (CA DS)</label>
+            </value>
+            <value>
+                <fullName>Rapid Test - Flu (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Rapid Test - Flu (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Rapid Test - RSV (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Rapid Test - RSV (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Rapid Test - Strep (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Rapid Test - Strep (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Reagents (CA BDB)</fullName>
+                <default>false</default>
+                <label>Reagents (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>Research Analyzer Instrument (US BDB)</fullName>
+                <default>false</default>
+                <label>Research Analyzer Instrument (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Research Options (US BDB)</fullName>
+                <default>false</default>
+                <label>Research Options (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Research Sorter Instrument (US BDB)</fullName>
+                <default>false</default>
+                <label>Research Sorter Instrument (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Safety IV Catheter (US MSS)</fullName>
+                <default>false</default>
+                <label>Safety IV Catheter (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Safety Syringes/Needles (US MSS)</fullName>
+                <default>false</default>
+                <label>Safety Syringes/Needles (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Safety TB and Insulin Syr/Ned (US MSS)</fullName>
+                <default>false</default>
+                <label>Safety TB and Insulin Syr/Ned (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Sample Prep (CA BDB)</fullName>
+                <default>false</default>
+                <label>Sample Prep (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>Sample Prep (US BDB)</fullName>
+                <default>false</default>
+                <label>Sample Prep (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Service (CA BDB)</fullName>
+                <default>false</default>
+                <label>Service (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>Service Contracts (US BDB)</fullName>
+                <default>false</default>
+                <label>Service Contracts (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Sharps Collectors-In Room (US MSS)</fullName>
+                <default>false</default>
+                <label>Sharps Collectors-In Room (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Sharps Collectors-XL (US MSS)</fullName>
+                <default>false</default>
+                <label>Sharps Collectors-XL (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Sharps Disposal (CA MSS)</fullName>
+                <default>false</default>
+                <label>Sharps Disposal (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Software &amp; Workstation (US BDB)</fullName>
+                <default>false</default>
+                <label>Software &amp; Workstation (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Software (CA BDB)</fullName>
+                <default>false</default>
+                <label>Software (CA BDB)</label>
+            </value>
+            <value>
+                <fullName>Solutions/Services (CA MSS)</fullName>
+                <default>false</default>
+                <label>Solutions/Services (CA MSS)</label>
+            </value>
+            <value>
+                <fullName>Solutions/Services (CA PAS)</fullName>
+                <default>false</default>
+                <label>Solutions/Services (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>Spares (US BDB)</fullName>
+                <default>false</default>
+                <label>Spares (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Spinal/Epidural Needles (US MSS)</fullName>
+                <default>false</default>
+                <label>Spinal/Epidural Needles (US MSS)</label>
+            </value>
+            <value>
+                <fullName>Staph SR (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Staph SR (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Strep Group B (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Strep Group B (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>TB (CA DS)</fullName>
+                <default>false</default>
+                <label>TB (CA DS)</label>
+            </value>
+            <value>
+                <fullName>TB Testing (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>TB Testing (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Time &amp; Material (US BDB)</fullName>
+                <default>false</default>
+                <label>Time &amp; Material (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Training &amp; Applications (US BDB)</fullName>
+                <default>false</default>
+                <label>Training &amp; Applications (US BDB)</label>
+            </value>
+            <value>
+                <fullName>Transport (CA PAS)</fullName>
+                <default>false</default>
+                <label>Transport (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>Tubes (CA PAS)</fullName>
+                <default>false</default>
+                <label>Tubes (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>Urine (CA PAS)</fullName>
+                <default>false</default>
+                <label>Urine (CA PAS)</label>
+            </value>
+            <value>
+                <fullName>VRE (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>VRE (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Vaginitis (US DS CLIN)</fullName>
+                <default>false</default>
+                <label>Vaginitis (US DS CLIN)</label>
+            </value>
+            <value>
+                <fullName>Wingsets (CA PAS)</fullName>
+                <default>false</default>
+                <label>Wingsets (CA PAS)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

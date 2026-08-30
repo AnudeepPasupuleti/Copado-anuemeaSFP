@@ -128,38 +128,63 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Competitor_Vendor_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Competitor_Vendor_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is a central hub to track all they key information about your competitors</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Competitor</label>
+    <label>Competitor/Vendor</label>
     <nameField>
-        <label>Competitor Name</label>
+        <label>Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Competitors</pluralLabel>
-    <searchLayouts />
+    <pluralLabel>Competitors/Vendors</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Competing_Products__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Customers__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CEO__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Ticker_Symbol__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Year_Founded__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Competing_Products__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Customers__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Ticker_Symbol__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Year_Founded__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchResultsAdditionalFields>Competing_Products__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customers__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Ticker_Symbol__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Year_Founded__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
