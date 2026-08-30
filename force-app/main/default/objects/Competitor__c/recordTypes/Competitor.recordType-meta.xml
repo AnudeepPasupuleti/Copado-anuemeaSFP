@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor</fullName>
+    <active>true</active>
+    <label>Competitor</label>
+    <picklistValues>
+        <picklist>ActiveBusinessUnits__c</picklist>
+        <values>
+            <fullName>Canada APM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM APM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM BDB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM MDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM MMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM PI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM SM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM UCC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competing_Products__c</picklist>
+        <values>
+            <fullName>ABG%2FCritical Care %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accessories %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accuri %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anesthesia Systems %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bioprocessing %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood Culture %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood Culture %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C difficile %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHROMagar MRSA %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHROMagar Other %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSTD %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT%2FGC %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CTT ASR Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CTT RUO Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Analyzer Instrument %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Options %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection and Transport %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conventional Hypodermics %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Microbiology %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cytology %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cytology %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diphenhydramine %28US RX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enteral Syringes %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Generation Sys %28US DS CLI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSAria %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSAria Fusion %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSCalibur %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSCanto %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSJazz %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSPresto %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACSVerse %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flush Products %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flush Syringes %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HPV %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSV %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hypodermic %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%2EV%2E Access System %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID %2F AST %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID AST %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS Blood Bank Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS Cancer Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS Custom Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS HIV Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS Other Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IV Catheter %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imaging %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Microbiology %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infection Prevention Soft %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influx %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instruments %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insulin Delivery %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSRFortessa %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Automation %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lancets %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy and Resold Instruments %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRSA %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metoclopramide %28US RX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molecular %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morphine %28US RX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needleless Connectors %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needles %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OSR %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ondansetron %28US RX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Options %26 Upgrades %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMG Core reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMG Custom Reagents %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy Devices %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy Solutions %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plate Streaker %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prepared Plated Media %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prepared Tubed Media %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapid Manual Testing %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapid Test - Flu %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapid Test - RSV %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapid Test - Strep %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reagents %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Analyzer Instrument %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Options %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Sorter Instrument %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety IV Catheter %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Syringes%2FNeedles %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety TB and Insulin Syr%2FNed %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample Prep %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample Prep %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Contracts %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharps Collectors-In Room %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharps Collectors-XL %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharps Disposal %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software %26 Workstation %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software %28CA BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions%2FServices %28CA MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solutions%2FServices %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spares %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spinal%2FEpidural Needles %28US MSS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staph SR %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strep Group B %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TB %28CA DS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TB Testing %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time %26 Material %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training %26 Applications %28US BDB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tubes %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urine %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VRE %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaginitis %28US DS CLIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wingsets %28CA PAS%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Business_Unit__c</picklist>
+        <values>
+            <fullName>BDB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada BDB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada BDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada DHC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada MDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada MMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada PAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Vendor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
