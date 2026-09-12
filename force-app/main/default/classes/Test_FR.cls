@@ -4,7 +4,7 @@
     <applicationVisibilities>
         <application>Chatter_Answers_Moderator</application>
         <default>false</default>
-            <version>67.0</version>
+            <version>58.0</version>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
@@ -463,7 +463,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ApprovalWorkItem.ApprovalConditionName</field>
+         <field>ApprovalWorkItem.AnudeepDeeptiTesting</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
