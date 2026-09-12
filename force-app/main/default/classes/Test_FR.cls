@@ -4,6 +4,7 @@
     <applicationVisibilities>
         <application>Chatter_Answers_Moderator</application>
         <default>false</default>
+            <version>67.0</version>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
